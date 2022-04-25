@@ -1,0 +1,77 @@
+style-h1{
+    margin-top: 30px;
+}
+body{
+    background-color:white;
+    
+}
+p{
+    text-align: center;
+}
+.container{
+    text-align: center;
+}
+/* find section */
+h1{
+    text-align: center;
+}
+h3 {
+    font-weight: bold;
+    letter-spacing: .1rem;
+    font-size: 1.7rem;
+    border-radius: .5rem;
+    padding: .5rem 1.5rem;
+    color: var(--light-color);
+    text-align: center;
+}
+
+.navbar h3 :hover {
+    color: #fff;
+    background: var(--green);
+    transform: rotate(360deg);
+}
+
+.myform {
+    margin-top: 20px;
+    justify-content: center;
+    display: flex;
+    max-width: 90rem;
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+    border: .1rem solid rgba(0, 0, 0, .2);
+    background: #fff;
+    padding: 1.5rem;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 1.5rem;
+}
+
+.input {
+    background: #eee;
+    border-radius: .5rem;
+    padding: 1rem;
+    font-size: 1.6rem;
+    color: var(--black);
+    text-transform: none;
+    margin-bottom: 1rem;
+    width: 100%;
+    border: .1rem solid var(--green);
+}
+
+.msg {
+    background: black;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+}
+
+.error {
+    padding: 5px;
+    margin: 5px;
+    color: orangered;
+}
+
+
+/* find section ends */
+
